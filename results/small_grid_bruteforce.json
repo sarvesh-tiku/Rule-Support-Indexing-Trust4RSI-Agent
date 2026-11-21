@@ -1,0 +1,34 @@
+{
+ "source_sha256": "0560a1c88e53f6af8029378067ea6ee3bd413d462900974308dec1157ec2f497",
+ "floor": 1.1111111111111112,
+ "by_size": {
+  "4": {
+   "layouts": 19977,
+   "commits": 118304,
+   "mixed": 58633,
+   "with_exception": 36149,
+   "to_or_from_inf": 81561,
+   "checks": 2853703,
+   "redone": 917632,
+   "stale": 0,
+   "stale_direct_only": 205279,
+   "unreachable": 235125,
+   "at_floor": 41082,
+   "first": null
+  },
+  "5": {
+   "layouts": 19999,
+   "commits": 118466,
+   "mixed": 58366,
+   "with_exception": 36038,
+   "to_or_from_inf": 82188,
+   "checks": 7180806,
+   "redone": 3012198,
+   "stale": 0,
+   "stale_direct_only": 699872,
+   "unreachable": 524130,
+   "at_floor": 41149,
+   "first": null
+  }
+ }
+}

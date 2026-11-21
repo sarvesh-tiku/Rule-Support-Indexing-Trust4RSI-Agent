@@ -1,0 +1,2288 @@
+{
+ "source_sha256": "0560a1c88e53f6af8029378067ea6ee3bd413d462900974308dec1157ec2f497",
+ "params": {
+  "strength": 0.7,
+  "block_mult": 0.8,
+  "kappa": 0.95,
+  "delta": 0.1,
+  "n_patch": 8,
+  "resolved": 0.95,
+  "ig_resolved": 0.9,
+  "probe_cap": 20,
+  "margin": 0.25
+ },
+ "seeds": [
+  1000,
+  1300
+ ],
+ "n_skipped": {
+  "15/block": 131,
+  "15/slow": 131,
+  "15/ool": 131,
+  "15/irrelevant": 142,
+  "15/unlock": 38,
+  "31/irrelevant": 276,
+  "31/ool": 71,
+  "31/slow": 71,
+  "31/block": 71,
+  "31/unlock": 5,
+  "51/irrelevant": 298,
+  "51/ool": 86,
+  "51/block": 86,
+  "51/slow": 86
+ },
+ "cells": {
+  "15/none": {
+   "n": 300,
+   "oracle_actions": 50.05,
+   "agents": {
+    "reactive": {
+     "regret": 0.25333333333333335,
+     "regret_lo": 0.06333333333333334,
+     "regret_hi": 0.49,
+     "actions": 50.303333333333335,
+     "expansions": 525.0166666666667,
+     "post": 9.376666666666667,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 2.973333333333333,
+     "regret_lo": 2.3133333333333335,
+     "regret_hi": 3.7333333333333334,
+     "actions": 53.02333333333333,
+     "expansions": 1052.2866666666666,
+     "post": 496.9533333333333,
+     "probes": 0.0,
+     "triggers": 2.1733333333333333,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 5.543333333333333,
+     "regret_lo": 4.506583333333333,
+     "regret_hi": 6.676666666666667,
+     "actions": 55.593333333333334,
+     "expansions": 1805.7,
+     "post": 1303.33,
+     "probes": 0.0,
+     "triggers": 2.3966666666666665,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 33.88,
+     "regret_lo": 32.50666666666667,
+     "regret_hi": 35.29008333333333,
+     "actions": 83.93,
+     "expansions": 5978.236666666667,
+     "post": 5422.903333333334,
+     "probes": 12.296666666666667,
+     "triggers": 10.746666666666666,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 2.973333333333333,
+     "regret_lo": 2.3133333333333335,
+     "regret_hi": 3.7333333333333334,
+     "actions": 53.02333333333333,
+     "expansions": 853.3,
+     "post": 297.96666666666664,
+     "probes": 0.0,
+     "triggers": 2.1733333333333333,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 2.3866666666666667,
+     "regret_lo": 1.76,
+     "regret_hi": 3.1133333333333333,
+     "actions": 52.43666666666667,
+     "expansions": 9157.82,
+     "post": 8602.486666666666,
+     "probes": 0.7566666666666667,
+     "triggers": 2.6366666666666667,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 2.36,
+     "regret_lo": 1.7333333333333334,
+     "regret_hi": 3.0866666666666664,
+     "actions": 52.41,
+     "expansions": 20266.05,
+     "post": 19710.716666666667,
+     "probes": 0.7666666666666667,
+     "triggers": 2.6466666666666665,
+     "completed": 1.0
+    }
+   }
+  },
+  "15/block": {
+   "n": 169,
+   "oracle_actions": 57.83431952662722,
+   "agents": {
+    "reactive": {
+     "regret": 40.22485207100592,
+     "regret_lo": 36.898964497041426,
+     "regret_hi": 43.80488165680473,
+     "actions": 98.05917159763314,
+     "expansions": 1492.0650887573966,
+     "post": 964.1065088757397,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 15.171597633136095,
+     "regret_lo": 12.91715976331361,
+     "regret_hi": 17.633431952662715,
+     "actions": 73.00591715976331,
+     "expansions": 2132.431952662722,
+     "post": 1545.4437869822484,
+     "probes": 0.0,
+     "triggers": 6.313609467455621,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 14.390532544378699,
+     "regret_lo": 12.36671597633136,
+     "regret_hi": 16.609467455621303,
+     "actions": 72.22485207100591,
+     "expansions": 2600.923076923077,
+     "post": 2074.757396449704,
+     "probes": 0.0,
+     "triggers": 4.349112426035503,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 48.319526627218934,
+     "regret_lo": 45.585798816568044,
+     "regret_hi": 51.17174556213018,
+     "actions": 106.15384615384616,
+     "expansions": 8465.89349112426,
+     "post": 7878.905325443787,
+     "probes": 17.171597633136095,
+     "triggers": 12.727810650887575,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 15.171597633136095,
+     "regret_lo": 12.91715976331361,
+     "regret_hi": 17.633431952662715,
+     "actions": 73.00591715976331,
+     "expansions": 1416.603550295858,
+     "post": 829.6153846153846,
+     "probes": 0.0,
+     "triggers": 6.313609467455621,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 13.863905325443787,
+     "regret_lo": 11.63905325443787,
+     "regret_hi": 16.313757396449702,
+     "actions": 71.69822485207101,
+     "expansions": 16624.508875739644,
+     "post": 16037.520710059172,
+     "probes": 1.8402366863905326,
+     "triggers": 6.520710059171598,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 13.893491124260356,
+     "regret_lo": 11.686242603550296,
+     "regret_hi": 16.349112426035504,
+     "actions": 71.72781065088758,
+     "expansions": 31553.881656804733,
+     "post": 30966.89349112426,
+     "probes": 1.8698224852071006,
+     "triggers": 6.544378698224852,
+     "completed": 1.0
+    }
+   }
+  },
+  "15/slow": {
+   "n": 169,
+   "oracle_actions": 52.710059171597635,
+   "agents": {
+    "reactive": {
+     "regret": 0.893491124260355,
+     "regret_lo": 0.3727810650887574,
+     "regret_hi": 1.4615384615384615,
+     "actions": 53.603550295857985,
+     "expansions": 552.7337278106509,
+     "post": 24.775147928994084,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 3.8875739644970415,
+     "regret_lo": 2.8224852071005917,
+     "regret_hi": 5.153846153846154,
+     "actions": 56.59763313609467,
+     "expansions": 1521.8224852071005,
+     "post": 934.8343195266273,
+     "probes": 0.0,
+     "triggers": 4.14792899408284,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 10.289940828402367,
+     "regret_lo": 8.603550295857989,
+     "regret_hi": 12.136094674556213,
+     "actions": 63.0,
+     "expansions": 2369.224852071006,
+     "post": 1843.0591715976332,
+     "probes": 0.0,
+     "triggers": 3.9585798816568047,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 38.55621301775148,
+     "regret_lo": 36.319526627218934,
+     "regret_hi": 40.8698224852071,
+     "actions": 91.26627218934911,
+     "expansions": 7594.307692307692,
+     "post": 7007.319526627219,
+     "probes": 15.201183431952662,
+     "triggers": 12.893491124260356,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 3.8875739644970415,
+     "regret_lo": 2.8224852071005917,
+     "regret_hi": 5.153846153846154,
+     "actions": 56.59763313609467,
+     "expansions": 1098.680473372781,
+     "post": 511.6923076923077,
+     "probes": 0.0,
+     "triggers": 4.14792899408284,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 3.727810650887574,
+     "regret_lo": 2.6094674556213016,
+     "regret_hi": 5.017899408284022,
+     "actions": 56.437869822485204,
+     "expansions": 13233.094674556212,
+     "post": 12646.10650887574,
+     "probes": 1.3727810650887573,
+     "triggers": 4.840236686390533,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 3.6508875739644973,
+     "regret_lo": 2.5323964497041422,
+     "regret_hi": 4.940828402366864,
+     "actions": 56.36094674556213,
+     "expansions": 26443.544378698225,
+     "post": 25856.556213017753,
+     "probes": 1.3964497041420119,
+     "triggers": 4.8698224852071,
+     "completed": 1.0
+    }
+   }
+  },
+  "15/unlock": {
+   "n": 262,
+   "oracle_actions": 47.31679389312977,
+   "agents": {
+    "reactive": {
+     "regret": 4.156488549618321,
+     "regret_lo": 3.404580152671756,
+     "regret_hi": 4.9657442748091585,
+     "actions": 51.47328244274809,
+     "expansions": 543.2328244274809,
+     "post": 10.549618320610687,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 4.015267175572519,
+     "regret_lo": 3.4618320610687023,
+     "regret_hi": 4.614503816793893,
+     "actions": 51.33206106870229,
+     "expansions": 1035.0763358778627,
+     "post": 461.90458015267177,
+     "probes": 0.0,
+     "triggers": 2.16412213740458,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 7.519083969465649,
+     "regret_lo": 6.3396946564885495,
+     "regret_hi": 8.83969465648855,
+     "actions": 54.83587786259542,
+     "expansions": 1871.8893129770993,
+     "post": 1357.3358778625955,
+     "probes": 0.0,
+     "triggers": 2.7022900763358777,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 29.49618320610687,
+     "regret_lo": 28.23654580152672,
+     "regret_hi": 30.755725190839694,
+     "actions": 76.81297709923665,
+     "expansions": 6509.687022900764,
+     "post": 5936.515267175572,
+     "probes": 13.393129770992367,
+     "triggers": 13.034351145038167,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 4.015267175572519,
+     "regret_lo": 3.4618320610687023,
+     "regret_hi": 4.614503816793893,
+     "actions": 51.33206106870229,
+     "expansions": 861.9503816793894,
+     "post": 288.77862595419845,
+     "probes": 0.0,
+     "triggers": 2.16412213740458,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 2.5839694656488548,
+     "regret_lo": 2.16412213740458,
+     "regret_hi": 3.019083969465649,
+     "actions": 49.900763358778626,
+     "expansions": 9430.652671755724,
+     "post": 8857.480916030534,
+     "probes": 0.767175572519084,
+     "triggers": 2.6946564885496183,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 2.5763358778625953,
+     "regret_lo": 2.1564885496183206,
+     "regret_hi": 3.0114503816793894,
+     "actions": 49.89312977099237,
+     "expansions": 20239.103053435116,
+     "post": 19665.931297709925,
+     "probes": 0.7709923664122137,
+     "triggers": 2.698473282442748,
+     "completed": 1.0
+    }
+   }
+  },
+  "15/irrelevant": {
+   "n": 158,
+   "oracle_actions": 47.20886075949367,
+   "agents": {
+    "reactive": {
+     "regret": 1.4620253164556962,
+     "regret_lo": 0.6075949367088608,
+     "regret_hi": 2.538132911392403,
+     "actions": 48.67088607594937,
+     "expansions": 481.2848101265823,
+     "post": 17.810126582278482,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 1.6898734177215189,
+     "regret_lo": 1.1518987341772151,
+     "regret_hi": 2.329113924050633,
+     "actions": 48.89873417721519,
+     "expansions": 824.4493670886076,
+     "post": 321.94303797468353,
+     "probes": 0.0,
+     "triggers": 1.4873417721518987,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 4.063291139240507,
+     "regret_lo": 2.949208860759494,
+     "regret_hi": 5.3164556962025316,
+     "actions": 51.27215189873418,
+     "expansions": 1490.367088607595,
+     "post": 1024.0886075949368,
+     "probes": 0.0,
+     "triggers": 1.8291139240506329,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 43.139240506329116,
+     "regret_lo": 40.88607594936709,
+     "regret_hi": 45.45569620253165,
+     "actions": 90.34810126582279,
+     "expansions": 6696.822784810127,
+     "post": 6194.316455696203,
+     "probes": 16.626582278481013,
+     "triggers": 12.341772151898734,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 1.6898734177215189,
+     "regret_lo": 1.1518987341772151,
+     "regret_hi": 2.329113924050633,
+     "actions": 48.89873417721519,
+     "expansions": 696.7594936708861,
+     "post": 194.25316455696202,
+     "probes": 0.0,
+     "triggers": 1.4873417721518987,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 1.3227848101265822,
+     "regret_lo": 0.810126582278481,
+     "regret_hi": 1.9240506329113924,
+     "actions": 48.53164556962025,
+     "expansions": 5494.2405063291135,
+     "post": 4991.734177215189,
+     "probes": 0.5126582278481012,
+     "triggers": 1.759493670886076,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 1.3291139240506329,
+     "regret_lo": 0.8227848101265823,
+     "regret_hi": 1.9303797468354431,
+     "actions": 48.537974683544306,
+     "expansions": 17130.107594936708,
+     "post": 16627.601265822785,
+     "probes": 0.5379746835443038,
+     "triggers": 1.7848101265822784,
+     "completed": 1.0
+    }
+   }
+  },
+  "15/ool": {
+   "n": 169,
+   "oracle_actions": 54.06508875739645,
+   "agents": {
+    "reactive": {
+     "regret": 20.2603550295858,
+     "regret_lo": 16.82248520710059,
+     "regret_hi": 23.905473372781064,
+     "actions": 74.32544378698225,
+     "expansions": 1061.9763313609467,
+     "post": 534.0177514792899,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 11.609467455621301,
+     "regret_lo": 9.449704142011834,
+     "regret_hi": 13.970562130177512,
+     "actions": 65.67455621301775,
+     "expansions": 1730.0650887573966,
+     "post": 1143.076923076923,
+     "probes": 0.0,
+     "triggers": 4.952662721893491,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 12.591715976331361,
+     "regret_lo": 10.2603550295858,
+     "regret_hi": 15.189349112426035,
+     "actions": 66.65680473372781,
+     "expansions": 2515.7633136094673,
+     "post": 1989.5976331360946,
+     "probes": 0.0,
+     "triggers": 3.8579881656804735,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 47.739644970414204,
+     "regret_lo": 44.44363905325444,
+     "regret_hi": 51.16582840236686,
+     "actions": 101.80473372781066,
+     "expansions": 7764.343195266272,
+     "post": 7177.355029585799,
+     "probes": 15.514792899408285,
+     "triggers": 12.437869822485206,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 11.609467455621301,
+     "regret_lo": 9.449704142011834,
+     "regret_hi": 13.970562130177512,
+     "actions": 65.67455621301775,
+     "expansions": 1220.3550295857988,
+     "post": 633.3668639053254,
+     "probes": 0.0,
+     "triggers": 4.952662721893491,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 10.763313609467456,
+     "regret_lo": 8.55621301775148,
+     "regret_hi": 13.14792899408284,
+     "actions": 64.82840236686391,
+     "expansions": 13912.514792899408,
+     "post": 13325.526627218935,
+     "probes": 1.4201183431952662,
+     "triggers": 5.260355029585799,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 10.78698224852071,
+     "regret_lo": 8.579881656804734,
+     "regret_hi": 13.177514792899409,
+     "actions": 64.85207100591715,
+     "expansions": 27364.207100591717,
+     "post": 26777.21893491124,
+     "probes": 1.4437869822485208,
+     "triggers": 5.27810650887574,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/none": {
+   "n": 300,
+   "oracle_actions": 117.96,
+   "agents": {
+    "reactive": {
+     "regret": 0.5366666666666666,
+     "regret_lo": 0.11333333333333333,
+     "regret_hi": 1.1133333333333333,
+     "actions": 118.49666666666667,
+     "expansions": 2671.5733333333333,
+     "post": 71.71333333333334,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 8.3,
+     "regret_lo": 6.866583333333333,
+     "regret_hi": 9.836749999999999,
+     "actions": 126.26,
+     "expansions": 6630.06,
+     "post": 3714.483333333333,
+     "probes": 0.0,
+     "triggers": 3.5933333333333333,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 20.406666666666666,
+     "regret_lo": 17.249916666666667,
+     "regret_hi": 23.73,
+     "actions": 138.36666666666667,
+     "expansions": 13538.753333333334,
+     "post": 11021.596666666666,
+     "probes": 0.0,
+     "triggers": 4.65,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 55.303333333333335,
+     "regret_lo": 52.26325,
+     "regret_hi": 58.52341666666666,
+     "actions": 173.26333333333332,
+     "expansions": 34240.37666666666,
+     "post": 31324.8,
+     "probes": 12.693333333333333,
+     "triggers": 11.55,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 8.3,
+     "regret_lo": 6.866583333333333,
+     "regret_hi": 9.836749999999999,
+     "actions": 126.26,
+     "expansions": 5748.543333333333,
+     "post": 2832.9666666666667,
+     "probes": 0.0,
+     "triggers": 3.5933333333333333,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 7.36,
+     "regret_lo": 5.956666666666667,
+     "regret_hi": 8.840083333333332,
+     "actions": 125.32,
+     "expansions": 93553.14333333333,
+     "post": 90637.56666666667,
+     "probes": 2.5633333333333335,
+     "triggers": 5.223333333333334,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 7.36,
+     "regret_lo": 5.956666666666667,
+     "regret_hi": 8.840083333333332,
+     "actions": 125.32,
+     "expansions": 137664.30666666667,
+     "post": 134748.73,
+     "probes": 2.5633333333333335,
+     "triggers": 5.223333333333334,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/block": {
+   "n": 229,
+   "oracle_actions": 135.25764192139738,
+   "agents": {
+    "reactive": {
+     "regret": 103.49781659388647,
+     "regret_lo": 93.2967248908297,
+     "regret_hi": 114.06997816593886,
+     "actions": 238.75545851528383,
+     "expansions": 12881.978165938865,
+     "post": 10280.528384279476,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 24.921397379912662,
+     "regret_lo": 21.34475982532751,
+     "regret_hi": 28.807860262008735,
+     "actions": 160.17903930131004,
+     "expansions": 11764.340611353711,
+     "post": 8769.436681222707,
+     "probes": 0.0,
+     "triggers": 6.489082969432315,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 39.943231441048034,
+     "regret_lo": 33.48886462882096,
+     "regret_hi": 47.144323144104796,
+     "actions": 175.2008733624454,
+     "expansions": 17771.31441048035,
+     "post": 15207.38864628821,
+     "probes": 0.0,
+     "triggers": 6.427947598253275,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 77.52401746724891,
+     "regret_lo": 72.5938864628821,
+     "regret_hi": 82.68569868995633,
+     "actions": 212.7816593886463,
+     "expansions": 44735.45851528384,
+     "post": 41740.55458515284,
+     "probes": 16.995633187772924,
+     "triggers": 13.301310043668122,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 24.921397379912662,
+     "regret_lo": 21.34475982532751,
+     "regret_hi": 28.807860262008735,
+     "actions": 160.17903930131004,
+     "expansions": 8208.187772925765,
+     "post": 5213.28384279476,
+     "probes": 0.0,
+     "triggers": 6.489082969432315,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 22.139737991266376,
+     "regret_lo": 18.558951965065503,
+     "regret_hi": 26.074454148471613,
+     "actions": 157.39737991266375,
+     "expansions": 143085.37991266375,
+     "post": 140090.47598253275,
+     "probes": 4.698689956331878,
+     "triggers": 8.187772925764191,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 22.139737991266376,
+     "regret_lo": 18.558951965065503,
+     "regret_hi": 26.074454148471613,
+     "actions": 157.39737991266375,
+     "expansions": 209306.08733624453,
+     "post": 206311.18340611353,
+     "probes": 4.698689956331878,
+     "triggers": 8.187772925764191,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/slow": {
+   "n": 229,
+   "oracle_actions": 122.76419213973799,
+   "agents": {
+    "reactive": {
+     "regret": 3.537117903930131,
+     "regret_lo": 2.1397379912663754,
+     "regret_hi": 5.213973799126638,
+     "actions": 126.30131004366812,
+     "expansions": 2866.170305676856,
+     "post": 264.72052401746726,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 12.200873362445416,
+     "regret_lo": 10.030458515283842,
+     "regret_hi": 14.51975982532751,
+     "actions": 134.9650655021834,
+     "expansions": 9292.812227074235,
+     "post": 6297.908296943231,
+     "probes": 0.0,
+     "triggers": 5.296943231441048,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 34.29694323144105,
+     "regret_lo": 29.506331877729256,
+     "regret_hi": 39.40174672489083,
+     "actions": 157.06113537117903,
+     "expansions": 16595.65502183406,
+     "post": 14031.729257641922,
+     "probes": 0.0,
+     "triggers": 6.336244541484716,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 63.44978165938865,
+     "regret_lo": 59.19639737991266,
+     "regret_hi": 68.00010917030568,
+     "actions": 186.21397379912665,
+     "expansions": 42058.65065502183,
+     "post": 39063.74672489083,
+     "probes": 15.475982532751091,
+     "triggers": 13.633187772925764,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 12.200873362445416,
+     "regret_lo": 10.030458515283842,
+     "regret_hi": 14.51975982532751,
+     "actions": 134.9650655021834,
+     "expansions": 7192.43231441048,
+     "post": 4197.528384279476,
+     "probes": 0.0,
+     "triggers": 5.296943231441048,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 11.100436681222707,
+     "regret_lo": 9.170305676855895,
+     "regret_hi": 13.187882096069867,
+     "actions": 133.8646288209607,
+     "expansions": 123021.60698689957,
+     "post": 120026.70305676856,
+     "probes": 3.7991266375545854,
+     "triggers": 7.218340611353712,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 11.100436681222707,
+     "regret_lo": 9.170305676855895,
+     "regret_hi": 13.187882096069867,
+     "actions": 133.8646288209607,
+     "expansions": 180174.36244541485,
+     "post": 177179.45851528386,
+     "probes": 3.7991266375545854,
+     "triggers": 7.218340611353712,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/unlock": {
+   "n": 295,
+   "oracle_actions": 106.8406779661017,
+   "agents": {
+    "reactive": {
+     "regret": 11.877966101694915,
+     "regret_lo": 10.298220338983052,
+     "regret_hi": 13.559322033898304,
+     "actions": 118.7186440677966,
+     "expansions": 2692.8881355932203,
+     "post": 72.92881355932204,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 12.945762711864408,
+     "regret_lo": 11.545762711864407,
+     "regret_hi": 14.444152542372882,
+     "actions": 119.7864406779661,
+     "expansions": 6104.552542372881,
+     "post": 3164.5389830508475,
+     "probes": 0.0,
+     "triggers": 3.3084745762711862,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 21.664406779661018,
+     "regret_lo": 18.96271186440678,
+     "regret_hi": 24.5764406779661,
+     "actions": 128.5050847457627,
+     "expansions": 12829.383050847458,
+     "post": 10290.722033898304,
+     "probes": 0.0,
+     "triggers": 4.918644067796611,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 41.35254237288136,
+     "regret_lo": 39.46093220338983,
+     "regret_hi": 43.349152542372885,
+     "actions": 148.19322033898305,
+     "expansions": 35066.952542372885,
+     "post": 32126.938983050848,
+     "probes": 13.816949152542373,
+     "triggers": 14.003389830508475,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 12.945762711864408,
+     "regret_lo": 11.545762711864407,
+     "regret_hi": 14.444152542372882,
+     "actions": 119.7864406779661,
+     "expansions": 5466.189830508474,
+     "post": 2526.1762711864408,
+     "probes": 0.0,
+     "triggers": 3.3084745762711862,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 7.989830508474577,
+     "regret_lo": 6.9932203389830505,
+     "regret_hi": 9.08135593220339,
+     "actions": 114.83050847457628,
+     "expansions": 92718.99322033898,
+     "post": 89778.97966101694,
+     "probes": 2.593220338983051,
+     "triggers": 5.36271186440678,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 7.989830508474577,
+     "regret_lo": 6.9932203389830505,
+     "regret_hi": 9.08135593220339,
+     "actions": 114.83050847457628,
+     "expansions": 135517.70847457627,
+     "post": 132577.69491525425,
+     "probes": 2.593220338983051,
+     "triggers": 5.36271186440678,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/irrelevant": {
+   "n": 24,
+   "oracle_actions": 100.29166666666667,
+   "agents": {
+    "reactive": {
+     "regret": 0.0,
+     "regret_lo": 0.0,
+     "regret_hi": 0.0,
+     "actions": 100.29166666666667,
+     "expansions": 1943.125,
+     "post": 9.583333333333334,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 1.9583333333333333,
+     "regret_lo": 0.5,
+     "regret_hi": 4.0,
+     "actions": 102.25,
+     "expansions": 2625.375,
+     "post": 579.5,
+     "probes": 0.0,
+     "triggers": 0.8333333333333334,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 6.166666666666667,
+     "regret_lo": 1.0,
+     "regret_hi": 15.084374999999985,
+     "actions": 106.45833333333333,
+     "expansions": 6009.875,
+     "post": 4225.375,
+     "probes": 0.0,
+     "triggers": 1.8333333333333333,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 71.875,
+     "regret_lo": 57.041666666666664,
+     "regret_hi": 88.16770833333332,
+     "actions": 172.16666666666666,
+     "expansions": 33878.291666666664,
+     "post": 31832.416666666668,
+     "probes": 17.375,
+     "triggers": 14.875,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 1.9583333333333333,
+     "regret_lo": 0.5,
+     "regret_hi": 4.0,
+     "actions": 102.25,
+     "expansions": 2504.8333333333335,
+     "post": 458.9583333333333,
+     "probes": 0.0,
+     "triggers": 0.8333333333333334,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 1.3333333333333333,
+     "regret_lo": 0.4166666666666667,
+     "regret_hi": 2.5416666666666665,
+     "actions": 101.625,
+     "expansions": 27513.25,
+     "post": 25467.375,
+     "probes": 0.6666666666666666,
+     "triggers": 1.4166666666666667,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 1.3333333333333333,
+     "regret_lo": 0.4166666666666667,
+     "regret_hi": 2.5416666666666665,
+     "actions": 101.625,
+     "expansions": 66909.125,
+     "post": 64863.25,
+     "probes": 0.6666666666666666,
+     "triggers": 1.4166666666666667,
+     "completed": 1.0
+    }
+   }
+  },
+  "31/ool": {
+   "n": 229,
+   "oracle_actions": 125.90393013100437,
+   "agents": {
+    "reactive": {
+     "regret": 48.22707423580786,
+     "regret_lo": 41.05229257641921,
+     "regret_hi": 55.75567685589519,
+     "actions": 174.13100436681222,
+     "expansions": 7299.493449781659,
+     "post": 4698.043668122271,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 24.816593886462883,
+     "regret_lo": 20.200764192139737,
+     "regret_hi": 29.956441048034932,
+     "actions": 150.72052401746726,
+     "expansions": 10084.943231441048,
+     "post": 7090.039301310044,
+     "probes": 0.0,
+     "triggers": 5.5895196506550215,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 41.31004366812227,
+     "regret_lo": 34.191921397379915,
+     "regret_hi": 49.51975982532751,
+     "actions": 167.21397379912665,
+     "expansions": 18785.12227074236,
+     "post": 16221.196506550219,
+     "probes": 0.0,
+     "triggers": 6.288209606986899,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 85.86899563318778,
+     "regret_lo": 79.16113537117904,
+     "regret_hi": 92.93897379912664,
+     "actions": 211.77292576419214,
+     "expansions": 42948.49781659389,
+     "post": 39953.593886462884,
+     "probes": 15.59825327510917,
+     "triggers": 13.493449781659388,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 24.816593886462883,
+     "regret_lo": 20.200764192139737,
+     "regret_hi": 29.956441048034932,
+     "actions": 150.72052401746726,
+     "expansions": 7621.733624454148,
+     "post": 4626.829694323144,
+     "probes": 0.0,
+     "triggers": 5.5895196506550215,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 26.982532751091703,
+     "regret_lo": 21.938864628820962,
+     "regret_hi": 32.41058951965066,
+     "actions": 152.88646288209608,
+     "expansions": 127170.04366812226,
+     "post": 124175.13973799127,
+     "probes": 3.851528384279476,
+     "triggers": 7.314410480349345,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 26.982532751091703,
+     "regret_lo": 21.938864628820962,
+     "regret_hi": 32.41058951965066,
+     "actions": 152.88646288209608,
+     "expansions": 185557.4323144105,
+     "post": 182562.5283842795,
+     "probes": 3.851528384279476,
+     "triggers": 7.314410480349345,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/none": {
+   "n": 300,
+   "oracle_actions": 212.27,
+   "agents": {
+    "reactive": {
+     "regret": 1.5833333333333333,
+     "regret_lo": 0.31991666666666674,
+     "regret_hi": 3.2000833333333323,
+     "actions": 213.85333333333332,
+     "expansions": 7931.636666666666,
+     "post": 390.74,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 21.386666666666667,
+     "regret_lo": 18.159916666666668,
+     "regret_hi": 24.756833333333333,
+     "actions": 233.65666666666667,
+     "expansions": 21348.233333333334,
+     "post": 13485.663333333334,
+     "probes": 0.0,
+     "triggers": 4.06,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 38.18,
+     "regret_lo": 32.25308333333333,
+     "regret_hi": 44.803416666666664,
+     "actions": 250.45,
+     "expansions": 51122.04666666667,
+     "post": 44083.08,
+     "probes": 0.0,
+     "triggers": 5.86,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 79.67333333333333,
+     "regret_lo": 74.02333333333333,
+     "regret_hi": 85.3535,
+     "actions": 291.9433333333333,
+     "expansions": 101353.22333333333,
+     "post": 93490.65333333334,
+     "probes": 12.906666666666666,
+     "triggers": 11.79,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 21.386666666666667,
+     "regret_lo": 18.159916666666668,
+     "regret_hi": 24.756833333333333,
+     "actions": 233.65666666666667,
+     "expansions": 17652.38,
+     "post": 9789.81,
+     "probes": 0.0,
+     "triggers": 4.06,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 19.206666666666667,
+     "regret_lo": 15.8,
+     "regret_hi": 22.75675,
+     "actions": 231.47666666666666,
+     "expansions": 350211.5266666667,
+     "post": 342348.95666666667,
+     "probes": 3.91,
+     "triggers": 6.42,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 19.206666666666667,
+     "regret_lo": 15.8,
+     "regret_hi": 22.75675,
+     "actions": 231.47666666666666,
+     "expansions": 486938.31333333335,
+     "post": 479075.74333333335,
+     "probes": 3.91,
+     "triggers": 6.42,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/block": {
+   "n": 214,
+   "oracle_actions": 247.68691588785046,
+   "agents": {
+    "reactive": {
+     "regret": 212.79906542056074,
+     "regret_lo": 192.69158878504672,
+     "regret_hi": 233.62628504672898,
+     "actions": 460.4859813084112,
+     "expansions": 71694.47663551402,
+     "post": 64182.21028037383,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 42.74766355140187,
+     "regret_lo": 36.86915887850467,
+     "regret_hi": 48.916004672897195,
+     "actions": 290.43457943925233,
+     "expansions": 32506.149532710282,
+     "post": 24475.546728971964,
+     "probes": 0.0,
+     "triggers": 6.61214953271028,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 65.74299065420561,
+     "regret_lo": 56.504672897196265,
+     "regret_hi": 75.85525700934579,
+     "actions": 313.4299065420561,
+     "expansions": 64164.64485981308,
+     "post": 57056.443925233645,
+     "probes": 0.0,
+     "triggers": 6.9672897196261685,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 106.25233644859813,
+     "regret_lo": 98.52768691588786,
+     "regret_hi": 114.29941588785047,
+     "actions": 353.9392523364486,
+     "expansions": 127174.95794392523,
+     "post": 119144.35514018692,
+     "probes": 17.364485981308412,
+     "triggers": 13.607476635514018,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 42.74766355140187,
+     "regret_lo": 36.86915887850467,
+     "regret_hi": 48.916004672897195,
+     "actions": 290.43457943925233,
+     "expansions": 22449.10280373832,
+     "post": 14418.5,
+     "probes": 0.0,
+     "triggers": 6.61214953271028,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 38.126168224299064,
+     "regret_lo": 32.112032710280374,
+     "regret_hi": 44.56565420560747,
+     "actions": 285.8130841121495,
+     "expansions": 491333.9953271028,
+     "post": 483303.3925233645,
+     "probes": 6.789719626168225,
+     "triggers": 8.967289719626168,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 38.126168224299064,
+     "regret_lo": 32.112032710280374,
+     "regret_hi": 44.56565420560747,
+     "actions": 285.8130841121495,
+     "expansions": 699928.9018691588,
+     "post": 691898.2990654205,
+     "probes": 6.789719626168225,
+     "triggers": 8.967289719626168,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/slow": {
+   "n": 214,
+   "oracle_actions": 217.95794392523365,
+   "agents": {
+    "reactive": {
+     "regret": 7.542056074766355,
+     "regret_lo": 4.934579439252336,
+     "regret_hi": 10.630957943925232,
+     "actions": 225.5,
+     "expansions": 8921.31308411215,
+     "post": 1409.0467289719627,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 31.38785046728972,
+     "regret_lo": 25.925,
+     "regret_hi": 37.36939252336448,
+     "actions": 249.34579439252337,
+     "expansions": 27897.051401869157,
+     "post": 19866.448598130843,
+     "probes": 0.0,
+     "triggers": 5.682242990654205,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 63.58878504672897,
+     "regret_lo": 54.654088785046724,
+     "regret_hi": 73.06156542056073,
+     "actions": 281.54672897196264,
+     "expansions": 60169.14953271028,
+     "post": 53060.94859813084,
+     "probes": 0.0,
+     "triggers": 7.397196261682243,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 93.75233644859813,
+     "regret_lo": 86.12570093457944,
+     "regret_hi": 101.74801401869159,
+     "actions": 311.7102803738318,
+     "expansions": 122046.92990654205,
+     "post": 114016.32710280374,
+     "probes": 15.813084112149532,
+     "triggers": 13.948598130841122,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 31.38785046728972,
+     "regret_lo": 25.925,
+     "regret_hi": 37.36939252336448,
+     "actions": 249.34579439252337,
+     "expansions": 21517.939252336448,
+     "post": 13487.336448598131,
+     "probes": 0.0,
+     "triggers": 5.682242990654205,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 28.401869158878505,
+     "regret_lo": 22.920443925233645,
+     "regret_hi": 34.626401869158876,
+     "actions": 246.35981308411215,
+     "expansions": 447108.7009345794,
+     "post": 439078.0981308411,
+     "probes": 5.485981308411215,
+     "triggers": 8.467289719626168,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 28.401869158878505,
+     "regret_lo": 22.920443925233645,
+     "regret_hi": 34.626401869158876,
+     "actions": 246.35981308411215,
+     "expansions": 628080.0934579439,
+     "post": 620049.4906542056,
+     "probes": 5.485981308411215,
+     "triggers": 8.467289719626168,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/unlock": {
+   "n": 300,
+   "oracle_actions": 187.64666666666668,
+   "agents": {
+    "reactive": {
+     "regret": 26.206666666666667,
+     "regret_lo": 22.563333333333333,
+     "regret_hi": 30.14675,
+     "actions": 213.85333333333332,
+     "expansions": 7931.636666666666,
+     "post": 390.74,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 31.483333333333334,
+     "regret_lo": 27.99325,
+     "regret_hi": 35.14683333333333,
+     "actions": 219.13,
+     "expansions": 20238.553333333333,
+     "post": 12375.983333333334,
+     "probes": 0.0,
+     "triggers": 3.8566666666666665,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 42.83,
+     "regret_lo": 37.363083333333336,
+     "regret_hi": 48.836749999999995,
+     "actions": 230.47666666666666,
+     "expansions": 50414.87,
+     "post": 43375.903333333335,
+     "probes": 0.0,
+     "triggers": 6.506666666666667,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 54.41,
+     "regret_lo": 50.72,
+     "regret_hi": 58.22008333333333,
+     "actions": 242.05666666666667,
+     "expansions": 108740.08,
+     "post": 100877.51,
+     "probes": 13.903333333333334,
+     "triggers": 14.36,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 31.483333333333334,
+     "regret_lo": 27.99325,
+     "regret_hi": 35.14683333333333,
+     "actions": 219.13,
+     "expansions": 17232.986666666668,
+     "post": 9370.416666666666,
+     "probes": 0.0,
+     "triggers": 3.8566666666666665,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 16.983333333333334,
+     "regret_lo": 14.646666666666667,
+     "regret_hi": 19.55675,
+     "actions": 204.63,
+     "expansions": 349648.5233333333,
+     "post": 341785.9533333333,
+     "probes": 3.993333333333333,
+     "triggers": 7.086666666666667,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 16.983333333333334,
+     "regret_lo": 14.646666666666667,
+     "regret_hi": 19.55675,
+     "actions": 204.63,
+     "expansions": 479056.27,
+     "post": 471193.7,
+     "probes": 3.993333333333333,
+     "triggers": 7.086666666666667,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/irrelevant": {
+   "n": 2,
+   "oracle_actions": 153.0,
+   "agents": {
+    "reactive": {
+     "regret": 0.0,
+     "regret_lo": 0.0,
+     "regret_hi": 0.0,
+     "actions": 153.0,
+     "expansions": 5379.5,
+     "post": 0.0,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 2.0,
+     "regret_lo": 2.0,
+     "regret_hi": 2.0,
+     "actions": 155.0,
+     "expansions": 4663.5,
+     "post": 56.5,
+     "probes": 0.0,
+     "triggers": 1.0,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 2.0,
+     "regret_lo": 2.0,
+     "regret_hi": 2.0,
+     "actions": 155.0,
+     "expansions": 9802.5,
+     "post": 4791.0,
+     "probes": 0.0,
+     "triggers": 1.0,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 67.0,
+     "regret_lo": 66.0,
+     "regret_hi": 68.0,
+     "actions": 220.0,
+     "expansions": 65970.0,
+     "post": 61363.0,
+     "probes": 15.0,
+     "triggers": 10.5,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 2.0,
+     "regret_lo": 2.0,
+     "regret_hi": 2.0,
+     "actions": 155.0,
+     "expansions": 4649.5,
+     "post": 42.5,
+     "probes": 0.0,
+     "triggers": 1.0,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 0.0,
+     "regret_lo": 0.0,
+     "regret_hi": 0.0,
+     "actions": 153.0,
+     "expansions": 79269.5,
+     "post": 74662.5,
+     "probes": 1.0,
+     "triggers": 2.0,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 0.0,
+     "regret_lo": 0.0,
+     "regret_hi": 0.0,
+     "actions": 153.0,
+     "expansions": 144144.0,
+     "post": 139537.0,
+     "probes": 1.0,
+     "triggers": 2.0,
+     "completed": 1.0
+    }
+   }
+  },
+  "51/ool": {
+   "n": 214,
+   "oracle_actions": 229.6355140186916,
+   "agents": {
+    "reactive": {
+     "regret": 91.00467289719626,
+     "regret_lo": 76.44380841121496,
+     "regret_hi": 106.44859813084112,
+     "actions": 320.64018691588785,
+     "expansions": 29520.10280373832,
+     "post": 22007.83644859813,
+     "probes": 0.0,
+     "triggers": 0.0,
+     "completed": 1.0
+    },
+    "replan": {
+     "regret": 47.97196261682243,
+     "regret_lo": 40.18200934579439,
+     "regret_hi": 56.392873831775695,
+     "actions": 277.60747663551405,
+     "expansions": 29701.50934579439,
+     "post": 21670.906542056076,
+     "probes": 0.0,
+     "triggers": 6.257009345794392,
+     "completed": 1.0
+    },
+    "psrl": {
+     "regret": 86.09345794392523,
+     "regret_lo": 70.46658878504672,
+     "regret_hi": 103.27570093457943,
+     "actions": 315.7289719626168,
+     "expansions": 79848.48130841121,
+     "post": 72740.28037383177,
+     "probes": 0.0,
+     "triggers": 7.485981308411215,
+     "completed": 1.0
+    },
+    "ig_replan": {
+     "regret": 137.0607476635514,
+     "regret_lo": 125.03703271028037,
+     "regret_hi": 149.80852803738318,
+     "actions": 366.696261682243,
+     "expansions": 125232.7476635514,
+     "post": 117202.14485981308,
+     "probes": 15.799065420560748,
+     "triggers": 13.785046728971963,
+     "completed": 1.0
+    },
+    "repair": {
+     "regret": 47.97196261682243,
+     "regret_lo": 40.18200934579439,
+     "regret_hi": 56.392873831775695,
+     "actions": 277.60747663551405,
+     "expansions": 22686.6214953271,
+     "post": 14656.018691588784,
+     "probes": 0.0,
+     "triggers": 6.257009345794392,
+     "completed": 1.0
+    },
+    "repair_probe": {
+     "regret": 54.55607476635514,
+     "regret_lo": 45.43457943925234,
+     "regret_hi": 64.05233644859811,
+     "actions": 284.19158878504675,
+     "expansions": 459348.3878504673,
+     "post": 451317.78504672897,
+     "probes": 5.897196261682243,
+     "triggers": 8.836448598130842,
+     "completed": 1.0
+    },
+    "replan_probe": {
+     "regret": 54.55607476635514,
+     "regret_lo": 45.43457943925234,
+     "regret_hi": 64.05233644859811,
+     "actions": 284.19158878504675,
+     "expansions": 641533.2803738317,
+     "post": 633502.6775700934,
+     "probes": 5.897196261682243,
+     "triggers": 8.836448598130842,
+     "completed": 1.0
+    }
+   }
+  }
+ },
+ "primary": [
+  {
+   "W": 15,
+   "name": "P1 compute: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "post",
+   "n": 600,
+   "mean_a": 503.90166666666664,
+   "mean_b": 900.31,
+   "diff": -396.40833333333336,
+   "lo": -448.32625,
+   "hi": -347.49600000000004,
+   "ratio": 0.5596979558892677,
+   "identical": false,
+   "p": 5.427004122672735e-82,
+   "p_holm": 7.055105359474556e-81
+  },
+  {
+   "W": 15,
+   "name": "P1 actions: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "actions",
+   "n": 600,
+   "mean_a": 58.92,
+   "mean_b": 58.92,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "ratio": 1.0,
+   "identical": true,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "W": 15,
+   "name": "P2 actions: probing vs no probing",
+   "a": "repair_probe",
+   "b": "repair",
+   "metric": "actions",
+   "n": 600,
+   "mean_a": 57.88166666666667,
+   "mean_b": 58.92,
+   "diff": -1.0383333333333333,
+   "lo": -1.4366666666666668,
+   "hi": -0.6583333333333333,
+   "ratio": 0.982377234668477,
+   "identical": false,
+   "p": 3.730296448862362e-09,
+   "p_holm": 2.6112075142036536e-08
+  },
+  {
+   "W": 15,
+   "name": "P3 actions: probing vs posterior sampling",
+   "a": "repair_probe",
+   "b": "psrl",
+   "metric": "actions",
+   "n": 600,
+   "mean_a": 57.88166666666667,
+   "mean_b": 62.03333333333333,
+   "diff": -4.151666666666666,
+   "lo": -5.115,
+   "hi": -3.2133333333333334,
+   "ratio": 0.9330736163353036,
+   "identical": false,
+   "p": 1.5710512193237722e-18,
+   "p_holm": 1.413946097391395e-17
+  },
+  {
+   "W": 15,
+   "name": "P4 actions: plan-relevant vs generic probing",
+   "a": "repair_probe",
+   "b": "ig_replan",
+   "metric": "actions",
+   "n": 600,
+   "mean_a": 57.88166666666667,
+   "mean_b": 89.14833333333333,
+   "diff": -31.266666666666666,
+   "lo": -32.52004166666667,
+   "hi": -29.988333333333333,
+   "ratio": 0.6492736824393801,
+   "identical": false,
+   "p": 3.882798043733698e-97,
+   "p_holm": 5.435917261227177e-96
+  },
+  {
+   "W": 15,
+   "name": "P5 compute: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "post",
+   "n": 600,
+   "mean_a": 11946.988333333333,
+   "mean_b": 24592.728333333333,
+   "diff": -12645.74,
+   "lo": -13114.786333333333,
+   "hi": -12195.698041666667,
+   "ratio": 0.4857935309739593,
+   "identical": false,
+   "p": 5.977126350446602e-100,
+   "p_holm": 9.563402160714563e-99
+  },
+  {
+   "W": 15,
+   "name": "P5 actions: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "actions",
+   "n": 600,
+   "mean_a": 57.88166666666667,
+   "mean_b": 57.865,
+   "diff": 0.016666666666666666,
+   "lo": -0.013333333333333334,
+   "hi": 0.06,
+   "ratio": 1.0002880267288805,
+   "identical": false,
+   "p": 0.7226744573158725,
+   "p_holm": 1.0
+  },
+  {
+   "W": 31,
+   "name": "P1 compute: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "post",
+   "n": 753,
+   "mean_a": 3851.6573705179285,
+   "mean_b": 5821.993359893759,
+   "diff": -1970.33598937583,
+   "lo": -2215.7579017264275,
+   "hi": -1739.396347941567,
+   "ratio": 0.6615702101364497,
+   "identical": false,
+   "p": 1.7019260631572382e-113,
+   "p_holm": 3.063466913683029e-112
+  },
+  {
+   "W": 31,
+   "name": "P1 actions: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "actions",
+   "n": 753,
+   "mean_a": 136.68658698539176,
+   "mean_b": 136.68658698539176,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "ratio": 1.0,
+   "identical": true,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "W": 31,
+   "name": "P2 actions: probing vs no probing",
+   "a": "repair_probe",
+   "b": "repair",
+   "metric": "actions",
+   "n": 753,
+   "mean_a": 133.56440903054448,
+   "mean_b": 136.68658698539176,
+   "diff": -3.1221779548472774,
+   "lo": -4.043824701195219,
+   "hi": -2.237715803452855,
+   "ratio": 0.9771581248481904,
+   "identical": false,
+   "p": 3.0581552713490695e-09,
+   "p_holm": 2.4465242170792556e-08
+  },
+  {
+   "W": 31,
+   "name": "P3 actions: probing vs posterior sampling",
+   "a": "repair_probe",
+   "b": "psrl",
+   "metric": "actions",
+   "n": 753,
+   "mean_a": 133.56440903054448,
+   "mean_b": 151.39043824701196,
+   "diff": -17.826029216467465,
+   "lo": -20.634893758300134,
+   "hi": -15.250962815405048,
+   "ratio": 0.8822512873145784,
+   "identical": false,
+   "p": 4.551412979487221e-40,
+   "p_holm": 5.461695575384665e-39
+  },
+  {
+   "W": 31,
+   "name": "P4 actions: plan-relevant vs generic probing",
+   "a": "repair_probe",
+   "b": "ig_replan",
+   "metric": "actions",
+   "n": 753,
+   "mean_a": 133.56440903054448,
+   "mean_b": 179.398406374502,
+   "diff": -45.833997343957506,
+   "lo": -48.20849933598937,
+   "hi": -43.49926958831341,
+   "ratio": 0.744512795457742,
+   "identical": false,
+   "p": 9.12776828507265e-119,
+   "p_holm": 1.7342759741638034e-117
+  },
+  {
+   "W": 31,
+   "name": "P5 compute: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "post",
+   "n": 753,
+   "mean_a": 114278.39707835326,
+   "mean_b": 168565.44090305446,
+   "diff": -54287.04382470119,
+   "lo": -56356.10461487384,
+   "hi": -52152.482304116864,
+   "ratio": 0.6779467752472298,
+   "identical": false,
+   "p": 6.453067865557144e-125,
+   "p_holm": 1.3551442517670003e-123
+  },
+  {
+   "W": 31,
+   "name": "P5 actions: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "actions",
+   "n": 753,
+   "mean_a": 133.56440903054448,
+   "mean_b": 133.56440903054448,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "ratio": 1.0,
+   "identical": true,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "W": 51,
+   "name": "P1 compute: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "post",
+   "n": 728,
+   "mean_a": 12064.524725274725,
+   "mean_b": 18134.590659340658,
+   "diff": -6070.065934065934,
+   "lo": -6852.129017857143,
+   "hi": -5322.400171703297,
+   "ratio": 0.6652769258434075,
+   "identical": false,
+   "p": 2.8370105898179318e-108,
+   "p_holm": 4.822918002690484e-107
+  },
+  {
+   "W": 51,
+   "name": "P1 actions: indexed repair vs replan",
+   "a": "repair",
+   "b": "replan",
+   "metric": "actions",
+   "n": 728,
+   "mean_a": 248.97252747252747,
+   "mean_b": 248.97252747252747,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "ratio": 1.0,
+   "identical": true,
+   "p": 1.0,
+   "p_holm": 1.0
+  },
+  {
+   "W": 51,
+   "name": "P2 actions: probing vs no probing",
+   "a": "repair_probe",
+   "b": "repair",
+   "metric": "actions",
+   "n": 728,
+   "mean_a": 240.76098901098902,
+   "mean_b": 248.97252747252747,
+   "diff": -8.211538461538462,
+   "lo": -10.039869505494504,
+   "hi": -6.424416208791209,
+   "ratio": 0.9670182949705383,
+   "identical": false,
+   "p": 1.1176143593743597e-18,
+   "p_holm": 1.1176143593743598e-17
+  },
+  {
+   "W": 51,
+   "name": "P3 actions: probing vs posterior sampling",
+   "a": "repair_probe",
+   "b": "psrl",
+   "metric": "actions",
+   "n": 728,
+   "mean_a": 240.76098901098902,
+   "mean_b": 269.8736263736264,
+   "diff": -29.11263736263736,
+   "lo": -33.7253434065934,
+   "hi": -24.562980769230773,
+   "ratio": 0.8921249261966325,
+   "identical": false,
+   "p": 1.1094814273680838e-38,
+   "p_holm": 1.2204295701048923e-37
+  },
+  {
+   "W": 51,
+   "name": "P4 actions: plan-relevant vs generic probing",
+   "a": "repair_probe",
+   "b": "ig_replan",
+   "metric": "actions",
+   "n": 728,
+   "mean_a": 240.76098901098902,
+   "mean_b": 295.4203296703297,
+   "diff": -54.65934065934066,
+   "lo": -58.690968406593406,
+   "hi": -50.59883241758242,
+   "ratio": 0.81497772776729,
+   "identical": false,
+   "p": 5.857456769087439e-98,
+   "p_holm": 8.786185153631158e-97
+  },
+  {
+   "W": 51,
+   "name": "P5 compute: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "post",
+   "n": 728,
+   "mean_a": 411985.4739010989,
+   "mean_b": 579828.2101648352,
+   "diff": -167842.73626373627,
+   "lo": -175608.007657967,
+   "hi": -160241.2733173077,
+   "ratio": 0.7105302340911949,
+   "identical": false,
+   "p": 7.737103826649656e-121,
+   "p_holm": 1.547420765329931e-119
+  },
+  {
+   "W": 51,
+   "name": "P5 actions: indexed vs unindexed probing",
+   "a": "repair_probe",
+   "b": "replan_probe",
+   "metric": "actions",
+   "n": 728,
+   "mean_a": 240.76098901098902,
+   "mean_b": 240.76098901098902,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "ratio": 1.0,
+   "identical": true,
+   "p": 1.0,
+   "p_holm": 1.0
+  }
+ ],
+ "controls": [
+  {
+   "W": 15,
+   "condition": "none",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 300,
+   "diff": -0.5866666666666667,
+   "lo": -0.9433333333333334,
+   "hi": -0.2733333333333333,
+   "oracle": 50.05
+  },
+  {
+   "W": 15,
+   "condition": "none",
+   "a": "repair",
+   "b": "reactive",
+   "n": 300,
+   "diff": 2.72,
+   "lo": 2.0633333333333335,
+   "hi": 3.473333333333333,
+   "oracle": 50.05
+  },
+  {
+   "W": 15,
+   "condition": "none",
+   "a": "repair",
+   "b": "psrl",
+   "n": 300,
+   "diff": -2.57,
+   "lo": -3.7200833333333336,
+   "hi": -1.5133333333333334,
+   "oracle": 50.05
+  },
+  {
+   "W": 15,
+   "condition": "irrelevant",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 158,
+   "diff": -0.3670886075949367,
+   "lo": -0.6455696202531646,
+   "hi": -0.13291139240506328,
+   "oracle": 47.20886075949367
+  },
+  {
+   "W": 15,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "reactive",
+   "n": 158,
+   "diff": 0.22784810126582278,
+   "lo": -0.740506329113924,
+   "hi": 1.0569620253164558,
+   "oracle": 47.20886075949367
+  },
+  {
+   "W": 15,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "psrl",
+   "n": 158,
+   "diff": -2.3734177215189876,
+   "lo": -3.5253164556962027,
+   "hi": -1.3354430379746836,
+   "oracle": 47.20886075949367
+  },
+  {
+   "W": 15,
+   "condition": "ool",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 169,
+   "diff": -0.8461538461538461,
+   "lo": -1.7988165680473374,
+   "hi": 0.047337278106508875,
+   "oracle": 54.06508875739645
+  },
+  {
+   "W": 15,
+   "condition": "ool",
+   "a": "repair",
+   "b": "reactive",
+   "n": 169,
+   "diff": -8.650887573964496,
+   "lo": -11.84630177514793,
+   "hi": -5.4733727810650885,
+   "oracle": 54.06508875739645
+  },
+  {
+   "W": 15,
+   "condition": "ool",
+   "a": "repair",
+   "b": "psrl",
+   "n": 169,
+   "diff": -0.9822485207100592,
+   "lo": -3.1835798816568044,
+   "hi": 1.165680473372781,
+   "oracle": 54.06508875739645
+  },
+  {
+   "W": 31,
+   "condition": "none",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 300,
+   "diff": -0.94,
+   "lo": -1.7533333333333334,
+   "hi": -0.16666666666666666,
+   "oracle": 117.96
+  },
+  {
+   "W": 31,
+   "condition": "none",
+   "a": "repair",
+   "b": "reactive",
+   "n": 300,
+   "diff": 7.763333333333334,
+   "lo": 6.389916666666666,
+   "hi": 9.216666666666667,
+   "oracle": 117.96
+  },
+  {
+   "W": 31,
+   "condition": "none",
+   "a": "repair",
+   "b": "psrl",
+   "n": 300,
+   "diff": -12.106666666666667,
+   "lo": -15.47,
+   "hi": -8.866583333333335,
+   "oracle": 117.96
+  },
+  {
+   "W": 31,
+   "condition": "irrelevant",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 24,
+   "diff": -0.625,
+   "lo": -1.75,
+   "hi": 0.20833333333333334,
+   "oracle": 100.29166666666667
+  },
+  {
+   "W": 31,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "reactive",
+   "n": 24,
+   "diff": 1.9583333333333333,
+   "lo": 0.5,
+   "hi": 4.0,
+   "oracle": 100.29166666666667
+  },
+  {
+   "W": 31,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "psrl",
+   "n": 24,
+   "diff": -4.208333333333333,
+   "lo": -12.541666666666666,
+   "hi": 0.5,
+   "oracle": 100.29166666666667
+  },
+  {
+   "W": 31,
+   "condition": "ool",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 229,
+   "diff": 2.165938864628821,
+   "lo": -0.9170305676855895,
+   "hi": 5.4803493449781655,
+   "oracle": 125.90393013100437
+  },
+  {
+   "W": 31,
+   "condition": "ool",
+   "a": "repair",
+   "b": "reactive",
+   "n": 229,
+   "diff": -23.41048034934498,
+   "lo": -29.860262008733624,
+   "hi": -17.143886462882097,
+   "oracle": 125.90393013100437
+  },
+  {
+   "W": 31,
+   "condition": "ool",
+   "a": "repair",
+   "b": "psrl",
+   "n": 229,
+   "diff": -16.49344978165939,
+   "lo": -24.126965065502183,
+   "hi": -9.93886462882096,
+   "oracle": 125.90393013100437
+  },
+  {
+   "W": 51,
+   "condition": "none",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 300,
+   "diff": -2.18,
+   "lo": -3.756666666666667,
+   "hi": -0.5999166666666679,
+   "oracle": 212.27
+  },
+  {
+   "W": 51,
+   "condition": "none",
+   "a": "repair",
+   "b": "reactive",
+   "n": 300,
+   "diff": 19.803333333333335,
+   "lo": 16.936500000000002,
+   "hi": 22.790166666666664,
+   "oracle": 212.27
+  },
+  {
+   "W": 51,
+   "condition": "none",
+   "a": "repair",
+   "b": "psrl",
+   "n": 300,
+   "diff": -16.793333333333333,
+   "lo": -23.030083333333334,
+   "hi": -11.036500000000002,
+   "oracle": 212.27
+  },
+  {
+   "W": 51,
+   "condition": "irrelevant",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 2,
+   "diff": -2.0,
+   "lo": -2.0,
+   "hi": -2.0,
+   "oracle": 153.0
+  },
+  {
+   "W": 51,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "reactive",
+   "n": 2,
+   "diff": 2.0,
+   "lo": 2.0,
+   "hi": 2.0,
+   "oracle": 153.0
+  },
+  {
+   "W": 51,
+   "condition": "irrelevant",
+   "a": "repair",
+   "b": "psrl",
+   "n": 2,
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "oracle": 153.0
+  },
+  {
+   "W": 51,
+   "condition": "ool",
+   "a": "repair_probe",
+   "b": "repair",
+   "n": 214,
+   "diff": 6.58411214953271,
+   "lo": 0.8177570093457944,
+   "hi": 12.682476635514016,
+   "oracle": 229.6355140186916
+  },
+  {
+   "W": 51,
+   "condition": "ool",
+   "a": "repair",
+   "b": "reactive",
+   "n": 214,
+   "diff": -43.032710280373834,
+   "lo": -57.8552570093458,
+   "hi": -28.70058411214954,
+   "oracle": 229.6355140186916
+  },
+  {
+   "W": 51,
+   "condition": "ool",
+   "a": "repair",
+   "b": "psrl",
+   "n": 214,
+   "diff": -38.12149532710281,
+   "lo": -53.308411214953274,
+   "hi": -24.49953271028038,
+   "oracle": 229.6355140186916
+  }
+ ],
+ "total_cost": {
+  "15/0.0": {
+   "reactive": 13.396666666666667,
+   "replan": 7.121666666666667,
+   "psrl": 10.235,
+   "ig_replan": 37.35,
+   "repair": 7.121666666666667,
+   "repair_probe": 6.083333333333333,
+   "replan_probe": 6.066666666666666
+  },
+  "15/0.001": {
+   "reactive": 14.209830000000002,
+   "replan": 8.602931666666667,
+   "psrl": 12.452316666666666,
+   "ig_replan": 44.716186666666665,
+   "repair": 8.206523333333333,
+   "repair_probe": 18.611276666666665,
+   "replan_probe": 31.24035
+  },
+  "15/0.01": {
+   "reactive": 21.528299999999998,
+   "replan": 21.934316666666668,
+   "psrl": 32.408166666666666,
+   "ig_replan": 111.01186666666666,
+   "repair": 17.970233333333333,
+   "repair_probe": 131.36276666666666,
+   "replan_probe": 257.8035
+  },
+  "31/0.0": {
+   "reactive": 37.20451527224436,
+   "replan": 16.361221779548472,
+   "psrl": 31.06507304116866,
+   "ig_replan": 59.0730411686587,
+   "repair": 16.361221779548472,
+   "repair_probe": 13.239043824701195,
+   "replan_probe": 13.239043824701195
+  },
+  "31/0.001": {
+   "reactive": 43.04877556440903,
+   "replan": 25.15661487383798,
+   "psrl": 46.542767596281536,
+   "ig_replan": 99.20664276228419,
+   "repair": 23.186278884462155,
+   "repair_probe": 130.4908406374502,
+   "replan_probe": 184.7778844621514
+  },
+  "31/0.01": {
+   "reactive": 95.6471181938911,
+   "replan": 104.31515272244356,
+   "psrl": 185.84201859229748,
+   "ig_replan": 460.4090571049137,
+   "repair": 84.61179282868525,
+   "repair_probe": 1185.7570119521913,
+   "replan_probe": 1728.627450199203
+  },
+  "51/0.0": {
+   "reactive": 75.57005494505495,
+   "replan": 34.76648351648352,
+   "psrl": 55.667582417582416,
+   "ig_replan": 81.21428571428571,
+   "repair": 34.76648351648352,
+   "repair_probe": 26.554945054945055,
+   "replan_probe": 26.554945054945055
+  },
+  "51/0.001": {
+   "reactive": 102.53608516483517,
+   "replan": 60.862432692307685,
+   "psrl": 112.99161126373627,
+   "ig_replan": 199.2850384615385,
+   "repair": 54.79236675824175,
+   "repair_probe": 446.50177747252746,
+   "replan_probe": 614.3445137362637
+  },
+  "51/0.01": {
+   "reactive": 345.23035714285714,
+   "replan": 295.7259752747253,
+   "psrl": 628.907870879121,
+   "ig_replan": 1261.9218131868133,
+   "repair": 235.02531593406596,
+   "repair_probe": 4226.023269230769,
+   "replan_probe": 5904.4506318681315
+  }
+ },
+ "reuse": {
+  "15": {
+   "reused_fraction": 0.8529740296006703,
+   "noops": 0.0,
+   "repairs": 3.91
+  },
+  "31": {
+   "reused_fraction": 0.7047032893916081,
+   "noops": 0.0,
+   "repairs": 5.0225763612217795
+  },
+  "51": {
+   "reused_fraction": 0.6709012464046021,
+   "noops": 0.0,
+   "repairs": 5.368131868131868
+  }
+ }
+}

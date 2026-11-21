@@ -1,0 +1,41 @@
+{
+ "15": {
+  "flagged": 3832,
+  "changed": 2587,
+  "hit": 2587,
+  "missed": 0,
+  "legs": 24861,
+  "repairs": 4102,
+  "mismatch": 0,
+  "recall": 1.0,
+  "precision": 0.6751043841336117,
+  "flagged_fraction": 0.15413700172961667,
+  "changed_fraction": 0.1040585656248743
+ },
+ "31": {
+  "flagged": 12049,
+  "changed": 7256,
+  "hit": 7256,
+  "missed": 0,
+  "legs": 39251,
+  "repairs": 6338,
+  "mismatch": 0,
+  "recall": 1.0,
+  "precision": 0.6022076520873102,
+  "flagged_fraction": 0.3069730707497898,
+  "changed_fraction": 0.18486153219026266
+ },
+ "51": {
+  "flagged": 14087,
+  "changed": 8036,
+  "hit": 8036,
+  "missed": 0,
+  "legs": 41588,
+  "repairs": 6730,
+  "mismatch": 0,
+  "recall": 1.0,
+  "precision": 0.5704550294597857,
+  "flagged_fraction": 0.33872751755314034,
+  "changed_fraction": 0.19322881600461672
+ }
+}

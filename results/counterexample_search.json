@@ -1,0 +1,86 @@
+{
+ "source_sha256": "0560a1c88e53f6af8029378067ea6ee3bd413d462900974308dec1157ec2f497",
+ "epsilon": {
+  "eps": 0.11111111111111116,
+  "floor": 1.1111111111111112,
+  "belief_cost_min_by_board": [
+   [
+    2,
+    1.1111111111111112
+   ],
+   [
+    3,
+    1.1111111111111112
+   ],
+   [
+    15,
+    1.1111111111111112
+   ],
+   [
+    31,
+    1.1111111111111112
+   ],
+   [
+    51,
+    1.1111111111111112
+   ]
+  ],
+  "sampled_rule_cost_min": 1.1111111111111112,
+  "nominal_cost_min": 1.1111111111111112,
+  "committed_cost_min_in_real_episodes": 1.1286089238845145,
+  "commits_observed": 2097,
+  "all_at_or_above_floor": true
+ },
+ "floor_respected": {
+  "values": [
+   1.1111111111111112,
+   1.5,
+   3.3333333333333335,
+   12.0,
+   "inf"
+  ],
+  "leg_revisions_checked": 15739200,
+  "index_misses": 0,
+  "direct_support_only_misses": 943728,
+  "first_counterexample": null
+ },
+ "floor_violated": {
+  "values": [
+   1.0,
+   1.1111111111111112,
+   1.5,
+   3.3333333333333335,
+   12.0,
+   "inf"
+  ],
+  "leg_revisions_checked": 28330560,
+  "index_misses": 74084,
+  "direct_support_only_misses": 1539932,
+  "first_counterexample": {
+   "layout": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    0,
+    -1,
+    1,
+    -1
+   ],
+   "a": 0,
+   "b": 8,
+   "costs": [
+    1.1111111111111112,
+    1.1111111111111112,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "rule": 1,
+   "new": 1.0,
+   "cached": 4.111111111111111,
+   "fresh": 4.0
+  }
+ }
+}

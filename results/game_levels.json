@@ -1,0 +1,387 @@
+{
+ "source_sha256": "0560a1c88e53f6af8029378067ea6ee3bd413d462900974308dec1157ec2f497",
+ "draws": 50,
+ "kind_order": [
+  "S1",
+  "T1",
+  "M1",
+  "M2",
+  "M3"
+ ],
+ "nominal": [
+  0.9,
+  0.9,
+  0.3,
+  0.0,
+  0.0
+ ],
+ "episodes": 1800,
+ "skipped": [
+  [
+   "8x11",
+   "C1",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "8x11",
+   "C1",
+   "unlock",
+   "no rule fits the condition"
+  ],
+  [
+   "8x11",
+   "C2",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "8x11",
+   "C2",
+   "unlock",
+   "no rule fits the condition"
+  ],
+  [
+   "8x11",
+   "C3",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "8x11",
+   "C3",
+   "unlock",
+   "no rule fits the condition"
+  ],
+  [
+   "9x9",
+   "C1",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "9x9",
+   "C2",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "9x9",
+   "C3",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "11x8",
+   "C1",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "11x8",
+   "C2",
+   "block",
+   "goal unreachable under the true rules"
+  ],
+  [
+   "11x8",
+   "C3",
+   "block",
+   "goal unreachable under the true rules"
+  ]
+ ],
+ "violations_pooled": {
+  "n": 1200,
+  "completed": false,
+  "identical_actions": 1200,
+  "work_ratio": 0.776,
+  "repair_post": 528.6,
+  "replan_post": 681.6,
+  "repairs": 6.47,
+  "probe_minus_noprobe": -0.11,
+  "revise_minus_norevise": -1.42,
+  "oracle_actions": 44.6
+ },
+ "by_level": {
+  "8x11": {
+   "n": 150,
+   "completed": true,
+   "identical_actions": 150,
+   "work_ratio": 0.893,
+   "repair_post": 223.8,
+   "replan_post": 250.5,
+   "repairs": 3.48,
+   "probe_minus_noprobe": 0.0,
+   "revise_minus_norevise": 0.0,
+   "oracle_actions": 22.1
+  },
+  "9x9": {
+   "n": 300,
+   "completed": false,
+   "identical_actions": 300,
+   "work_ratio": 0.802,
+   "repair_post": 583.2,
+   "replan_post": 726.9,
+   "repairs": 8.89,
+   "probe_minus_noprobe": -0.17,
+   "revise_minus_norevise": 0.27,
+   "oracle_actions": 37.1
+  },
+  "11x8": {
+   "n": 300,
+   "completed": false,
+   "identical_actions": 300,
+   "work_ratio": 0.858,
+   "repair_post": 481.2,
+   "replan_post": 560.9,
+   "repairs": 5.48,
+   "probe_minus_noprobe": -0.26,
+   "revise_minus_norevise": -0.22,
+   "oracle_actions": 38.0
+  },
+  "11x11": {
+   "n": 450,
+   "completed": false,
+   "identical_actions": 450,
+   "work_ratio": 0.714,
+   "repair_post": 625.4,
+   "replan_post": 875.6,
+   "repairs": 6.52,
+   "probe_minus_noprobe": -0.01,
+   "revise_minus_norevise": -3.83,
+   "oracle_actions": 61.6
+  }
+ },
+ "by_condition": {
+  "none": {
+   "n": 600,
+   "completed": false,
+   "identical_actions": 600,
+   "work_ratio": 0.826,
+   "repair_post": 301.9,
+   "replan_post": 365.6,
+   "repairs": 4.55,
+   "probe_minus_noprobe": -0.21,
+   "revise_minus_norevise": 2.1,
+   "oracle_actions": 37.4
+  },
+  "block": {
+   "n": 150,
+   "completed": false,
+   "identical_actions": 150,
+   "work_ratio": 0.678,
+   "repair_post": 899.4,
+   "replan_post": 1325.8,
+   "repairs": 8.35,
+   "probe_minus_noprobe": 0.35,
+   "revise_minus_norevise": -12.04,
+   "oracle_actions": 69.8
+  },
+  "slow": {
+   "n": 600,
+   "completed": false,
+   "identical_actions": 600,
+   "work_ratio": 0.801,
+   "repair_post": 561.1,
+   "replan_post": 701.0,
+   "repairs": 7.01,
+   "probe_minus_noprobe": -0.18,
+   "revise_minus_norevise": 1.78,
+   "oracle_actions": 41.9
+  },
+  "unlock": {
+   "n": 450,
+   "completed": true,
+   "identical_actions": 450,
+   "work_ratio": 0.82,
+   "repair_post": 361.7,
+   "replan_post": 441.0,
+   "repairs": 5.13,
+   "probe_minus_noprobe": -0.17,
+   "revise_minus_norevise": -2.16,
+   "oracle_actions": 39.9
+  }
+ },
+ "cells_available": [
+  [
+   "11x11",
+   "C1",
+   "block"
+  ],
+  [
+   "11x11",
+   "C1",
+   "none"
+  ],
+  [
+   "11x11",
+   "C1",
+   "slow"
+  ],
+  [
+   "11x11",
+   "C1",
+   "unlock"
+  ],
+  [
+   "11x11",
+   "C2",
+   "block"
+  ],
+  [
+   "11x11",
+   "C2",
+   "none"
+  ],
+  [
+   "11x11",
+   "C2",
+   "slow"
+  ],
+  [
+   "11x11",
+   "C2",
+   "unlock"
+  ],
+  [
+   "11x11",
+   "C3",
+   "block"
+  ],
+  [
+   "11x11",
+   "C3",
+   "none"
+  ],
+  [
+   "11x11",
+   "C3",
+   "slow"
+  ],
+  [
+   "11x11",
+   "C3",
+   "unlock"
+  ],
+  [
+   "11x8",
+   "C1",
+   "none"
+  ],
+  [
+   "11x8",
+   "C1",
+   "slow"
+  ],
+  [
+   "11x8",
+   "C1",
+   "unlock"
+  ],
+  [
+   "11x8",
+   "C2",
+   "none"
+  ],
+  [
+   "11x8",
+   "C2",
+   "slow"
+  ],
+  [
+   "11x8",
+   "C2",
+   "unlock"
+  ],
+  [
+   "11x8",
+   "C3",
+   "none"
+  ],
+  [
+   "11x8",
+   "C3",
+   "slow"
+  ],
+  [
+   "11x8",
+   "C3",
+   "unlock"
+  ],
+  [
+   "8x11",
+   "C1",
+   "none"
+  ],
+  [
+   "8x11",
+   "C1",
+   "slow"
+  ],
+  [
+   "8x11",
+   "C2",
+   "none"
+  ],
+  [
+   "8x11",
+   "C2",
+   "slow"
+  ],
+  [
+   "8x11",
+   "C3",
+   "none"
+  ],
+  [
+   "8x11",
+   "C3",
+   "slow"
+  ],
+  [
+   "9x9",
+   "C1",
+   "none"
+  ],
+  [
+   "9x9",
+   "C1",
+   "slow"
+  ],
+  [
+   "9x9",
+   "C1",
+   "unlock"
+  ],
+  [
+   "9x9",
+   "C2",
+   "none"
+  ],
+  [
+   "9x9",
+   "C2",
+   "slow"
+  ],
+  [
+   "9x9",
+   "C2",
+   "unlock"
+  ],
+  [
+   "9x9",
+   "C3",
+   "none"
+  ],
+  [
+   "9x9",
+   "C3",
+   "slow"
+  ],
+  [
+   "9x9",
+   "C3",
+   "unlock"
+  ]
+ ]
+}

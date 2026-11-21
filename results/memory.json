@@ -1,0 +1,36 @@
+{
+ "source_sha256": "0560a1c88e53f6af8029378067ea6ee3bd413d462900974308dec1157ec2f497",
+ "seeds": [
+  1000,
+  1100
+ ],
+ "by_size": {
+  "15": {
+   "maps": 59,
+   "cached_legs_per_map": 15.0,
+   "support_entries_per_leg": 2.16,
+   "path_cells_per_leg": 12.3,
+   "support_share_of_stored_ids": 0.15,
+   "peak_kib_replan": 57.6,
+   "peak_kib_repair": 57.4
+  },
+  "31": {
+   "maps": 82,
+   "cached_legs_per_map": 15.0,
+   "support_entries_per_leg": 3.48,
+   "path_cells_per_leg": 29.7,
+   "support_share_of_stored_ids": 0.105,
+   "peak_kib_replan": 191.5,
+   "peak_kib_repair": 191.3
+  },
+  "51": {
+   "maps": 68,
+   "cached_legs_per_map": 15.0,
+   "support_entries_per_leg": 3.95,
+   "path_cells_per_leg": 54.8,
+   "support_share_of_stored_ids": 0.067,
+   "peak_kib_replan": 497.1,
+   "peak_kib_repair": 494.6
+  }
+ }
+}

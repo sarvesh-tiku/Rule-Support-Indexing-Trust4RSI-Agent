@@ -1,0 +1,36 @@
+===== lpa_dict
+         33774493 function calls in 6.612 seconds
+
+   Ordered by: internal time
+   List reduced from 21 to 8 due to restriction <8>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  6240888    1.165    0.000    2.062    0.000 scripts/incremental_baseline.py:73(<genexpr>)
+  1326879    1.010    0.000    5.190    0.000 scripts/incremental_baseline.py:66(_update)
+ 10750957    0.970    0.000    0.970    0.000 {method 'get' of 'dict' objects}
+  2247906    0.873    0.000    2.935    0.000 {built-in method builtins.min}
+     3814    0.636    0.000    6.163    0.002 scripts/incremental_baseline.py:85(solve)
+  7721187    0.582    0.000    0.582    0.000 scripts/incremental_baseline.py:55(_nbrs)
+   980285    0.575    0.000    1.010    0.000 scripts/incremental_baseline.py:46(_key)
+   674825    0.237    0.000    1.052    0.000 scripts/incremental_baseline.py:50(_push)
+
+
+
+===== lpa_fast
+         3891913 function calls in 1.144 seconds
+
+   Ordered by: internal time
+   List reduced from 16 to 8 due to restriction <8>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   304230    0.420    0.000    0.526    0.000 scripts/incremental_audit.py:80(_touch)
+     1230    0.179    0.000    0.290    0.000 scripts/incremental_audit.py:66(__init__)
+   533246    0.177    0.000    0.177    0.000 {built-in method _heapq.heappop}
+     3814    0.139    0.000    0.809    0.000 scripts/incremental_audit.py:109(solve)
+  2364060    0.110    0.000    0.110    0.000 {built-in method builtins.abs}
+   673595    0.105    0.000    0.105    0.000 {built-in method _heapq.heappush}
+      507    0.010    0.000    0.010    0.000 scripts/../cpr/planner.py:99(cost_array)
+     2584    0.001    0.000    0.034    0.000 scripts/incremental_audit.py:105(set_costs)
+
+
+
